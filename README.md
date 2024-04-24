@@ -1,3 +1,23 @@
+觉得好用可以小小的打赏一波哦！<br>
+qubic wallet：<br>
+
+```
+PAVAGWGIGXCUKAAKHUCKUSQWJPFABYYZZLMYASJKNAZRFEEQTSBXYEFCTEXG
+```
+
+使用方法（usage）:<br>
+- 在国内没有科学上网，可以直接使用<br>
+for china:<br>
+```
+https://mirror.ghproxy.com/https://github.com/paragone/hiveos/releases/download/v1.9.5/qubminer-1.9.5.tar.gz
+```
+- others:<br>
+```
+https://github.com/paragone/hiveos/releases/download/v1.9.5/qubminer-1.9.5.tar.gz
+```
+
+
+-------------------------------------------------------------
 # Qubic HiveOs Miner
 This is the integration of the main client from qubic.li to HiveOs.
 
