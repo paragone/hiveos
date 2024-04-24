@@ -2,7 +2,7 @@
 if ! command -v ts &> /dev/null; then
     echo "Program ts (moreutils) - not installed. ts is required. Install:"
     # Because HiveOS crashed during the installation of moreutils, I have to install the 'ts' utility from its sources.
-    cd /tmp/ && wget https://raw.githubusercontent.com/Worm/moreutils/master/ts && mv ts /usr/local/bin && chmod 777 /usr/local/bin/ts
+    cd /tmp/ && wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/Worm/moreutils/master/ts && mv ts /usr/local/bin && chmod 777 /usr/local/bin/ts
     #sudo sed -i '/^deb http:\/\/[a-z]*\.*archive\.ubuntu\.com\/ubuntu\ jammy\ [a-zA-Z0-9]*$/d' /etc/apt/sources.list && apt update && apt install moreutils -y
     echo "Program ts (moreutils) - has been installed."
 fi
